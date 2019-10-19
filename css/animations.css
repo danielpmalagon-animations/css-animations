@@ -1,0 +1,134 @@
+.animation-scroll-helper {
+  position: relative; }
+  .animation-scroll-helper:before {
+    content: ' ';
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    height: 70px;
+    width: 70px;
+    background-image: url(../images/touch-hand.svg);
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: touchdrag;
+    animation-name: touchdrag; }
+@-webkit-keyframes touchdrag {
+  0%, 50%, 100% {
+    margin-left: 40px;
+    margin-top: 0px;
+    opacity: 0; }
+  20% {
+    margin-left: 40px;
+    opacity: 0.75; }
+  30% {
+    margin-left: -100px;
+    opacity: 0; }
+  70% {
+    margin-top: 0px;
+    opacity: 0.75; }
+  80% {
+    margin-top: 140px;
+    opacity: 0; } }
+@keyframes touchdrag {
+  0%, 50%, 100% {
+    margin-left: 40px;
+    margin-top: 0px;
+    opacity: 0; }
+  20% {
+    margin-left: 40px;
+    opacity: 0.75; }
+  30% {
+    margin-left: -100px;
+    opacity: 0; }
+  70% {
+    margin-top: 0px;
+    opacity: 0.75; }
+  80% {
+    margin-top: 140px;
+    opacity: 0; } }
+  .animation-scroll-helper:after {
+    content: ' ';
+    position: absolute;
+    left: 50%;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #bbb;
+    top: 88px;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: touchdragdot;
+    animation-name: touchdragdot; }
+@-webkit-keyframes touchdragdot {
+  0%, 5%, 50%, 55%, 100% {
+    margin-left: 58px;
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  10% {
+    opacity: 0.5; }
+  20% {
+    margin-left: 58px;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0.5; }
+  30% {
+    margin-left: -85px;
+    opacity: 0; }
+  55% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  60% {
+    opacity: 0.5; }
+  70% {
+    margin-top: 0;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0.5; }
+  80% {
+    margin-top: 140px;
+    opacity: 0; } }
+@keyframes touchdragdot {
+  0%, 5%, 50%, 55%, 100% {
+    margin-left: 58px;
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  10% {
+    opacity: 0.5; }
+  20% {
+    margin-left: 58px;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0.5; }
+  30% {
+    margin-left: -85px;
+    opacity: 0; }
+  55% {
+    opacity: 0;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  60% {
+    opacity: 0.5; }
+  70% {
+    margin-top: 0;
+    -webkit-transform: scale(2);
+            transform: scale(2);
+    opacity: 0.5; }
+  80% {
+    margin-top: 140px;
+    opacity: 0; } }
+
+/*# sourceMappingURL=animations.css.map */
